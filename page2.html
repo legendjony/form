@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"type="text/css"href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise</title>
+</head>
+<body>
+    <h2>This is a form</h2>
+    <form>
+            <datalist id="name1">
+                <option value="Rodix">Rodix</option>
+                <option value="Ovie">Ovie</option>
+                <option value="Shakil">Shakil</option>
+                <option value="Ontor">Ontor</option>
+                <option value="Raihan">Raihan</option>
+            </datalist>
+            <datalist id="name2">
+                <option value="Jony">Jony</option>
+                <option value="Khan">Khan</option>
+                <option value="Ali">Ali</option>
+                <option value="Bissas">Bissas</option>
+            </datalist>
+            <fieldset>
+                <legend>Personal info</legend>
+        <b>First Name:</b><input type="text" list="name1"name="textbox1"placeholder="first name"requried pattern=[ a-z A-Z 0-9] ><br/><br/>
+        <b>Last Name:</b><input type="text" list="name2"name="textbox2"placeholder="second name"requried><br/><br/>
+        <b>Phone number:</b><input type="number" name="number"placeholder="Type your phone number"><br/><br/>
+        <b>Email:</b><input type="email"placeholder="Enter your email"><br><br>
+        <b>Date of birth:</b><input type="date"><br/><br/>
+        <b>Gender:</b><input type="radio"name="gender"value="male">Male
+                     <input type="radio"name="gender"value="female">Female
+                     <input type="radio"name="gender"value="others">Others
+                     <br/><br/>
+        <b>Religion:</b><input type="checkbox"name="c1"value="Islam">Islam
+                        <input type="checkbox"name="c2"value="Hindu">Hindu
+                        <input type="checkbox"name="c3"value="Others">Others<br/></br>
+        <b>Relation:</b><input type="checkbox"name="r1"value="Single">Single
+                        <input type="checkbox"name="r2"value="Married">Married
+                        <br/><br/>
+      <b>Password:</b>&nbsp; <input type="password" name="pwd"placeholder="Atleast 8 character"><br><br>
+    </fieldset>
+    <br/>
+    <b>Department:</b>
+    <select type="Department">
+        <option>CSE</option>
+        <option>IICT</option>
+        <option>IT</option>
+        <option>HSC</option>
+        <option>SSC</option>
+        <option>OTHERS</option>
+    </select>
+    <br/></br>
+    <b>Comments</b><br/>
+    <textarea name="t1"rows="7"cols="40">
+     
+    </textarea>
+    <br/></br>
+    <input type="submit"value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
